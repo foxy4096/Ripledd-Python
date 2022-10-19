@@ -4,9 +4,16 @@
 
 A simple API wrapper made for [Ripledd](https://ripledd.com/center/).
 
+
+## **Install It**
+
 ```
 pip install ripledd-python
 ```
+
+
+## **Write Some Code** 
+
 
 ```py
 # demo.py
@@ -47,4 +54,5 @@ You will get the following response
 ![Response](/images/response.jpeg)
 
 
-*Cheers*
+
+*Cheers ✌*
