@@ -1,5 +1,8 @@
-import requests
 import hashlib
+
+import requests
+
+from . import constants
 
 client = requests.Session()
 
@@ -9,7 +12,7 @@ class Ripledd:
     A nice and sweet API wrapper made for [Ripledd](https://ripledd.com/center/)
     """
 
-    API_URL: str = "https://ripledd.com/dev/api/"
+    API_URL: str = constants.API_URL
     ENDPOINTS = {
         "create_post": "post.php",
     }

@@ -1,4 +1,4 @@
-![Banner](docs/images/banner.png)
+![Banner](/images/banner.png)
 
 # Ripledd Python
 
@@ -51,7 +51,7 @@ PS C:\Users\ripledd\Projects\Bots>python demo.py
 
 You will get the following response
 
-![Response](docs/images/response.jpeg)
+![Response](/images/response.jpeg)
 
 
 

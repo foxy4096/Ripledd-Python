@@ -1,3 +1,6 @@
+# Usage
+
+```py
 """
 This is a Demo file to help you get started.
 """
@@ -21,3 +24,4 @@ ripledd = Ripledd(email=EMAIL, password=PASSWORD)
 
 # Printing the success
 print(ripledd.create_post("The Post from the API").ok)
+```
