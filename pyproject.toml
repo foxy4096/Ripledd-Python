@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ripledd-python"
+version = "1.0"
+authors = [
+    { name = "Aditya Priyadarshi", email = "adityapriyadarshi669@gmail.com" },
+]
+description = "A nice and sweet API wrapper made for Ripledd"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/foxy4096/ripledd-python"
+"Bug Tracker" = "https://github.com/foxy4096/ripledd-python/ssues"

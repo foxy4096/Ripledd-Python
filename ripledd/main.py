@@ -34,3 +34,5 @@ class Ripledd:
             url=f"{self.API_URL}{self.ENDPOINTS.get('create_post')}", data=body
         )
         return res
+
+
