@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
 
 DESCRIPTION = "A nice and sweet API wrapper made for Ripledd"
-LONG_DESCRIPTION = "A nice and sweet API wrapper made for Ripledd"
 
+with open("../README.md", "r") as fh:
+    LONG_DESCRIPTION = fh.read()
 
 setup(
     name="ripledd",
