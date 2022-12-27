@@ -54,5 +54,4 @@ You will get the following response
 ![Response](/images/response.jpeg)
 
 
-
 *Cheers ✌*

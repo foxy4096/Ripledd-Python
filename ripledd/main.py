@@ -30,9 +30,8 @@ class Ripledd:
             "spchr_auth_pw_hash": self.password,
             "send_data": body,
         }
-        res = client.post(
+        return client.post(
             url=f"{self.API_URL}{self.ENDPOINTS.get('create_post')}", data=body
         )
-        return res
 
 
