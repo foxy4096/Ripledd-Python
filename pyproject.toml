@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ripledd-python"
-version = "1.0"
+version = "1.2"
 authors = [
     { name = "Aditya Priyadarshi", email = "adityapriyadarshi669@gmail.com" },
 ]
