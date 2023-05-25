@@ -7,7 +7,7 @@ DESCRIPTION = "A nice and sweet API wrapper made for Ripledd"
 
 setup(
     name="ripledd",
-    use_scm_version=True,
+    version=1.2,
     author="Aditya Priyadarshi",
     author_email="adityapriyadarshi669@gmail.com",
     description=DESCRIPTION,
