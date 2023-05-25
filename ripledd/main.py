@@ -17,18 +17,20 @@ class Ripledd:
         "create_post": "post.php",
     }
 
-    def __init__(self, email: str, password: str) -> None:
+    def __init__(self, email: str, password: str, channel_id = None) -> None:
         self.email: str = email
-        self.password: str = hashlib.sha256(password.encode("utf-8")).hexdigest()
+        self.password: str = password
+        self.channel_id: str = channel_id
 
     def create_post(self, body) -> requests.Response:
         """
         Creating a Post
         """
         body = {
-            "spchr_auth_email": self.email,
-            "spchr_auth_pw_hash": self.password,
-            "send_data": body,
+            "email": self.email,
+            "password": self.password,
+            "content": body,
+            "channel_id": self.channel_id
         }
         return client.post(
             url=f"{self.API_URL}{self.ENDPOINTS.get('create_post')}", data=body

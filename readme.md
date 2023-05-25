@@ -19,25 +19,28 @@ pip install ripledd-python
 # demo.py
 
 # Load the Important Modules
+
+# Load the Important Modules
 import os
 
 from dotenv import load_dotenv
 
-
-import Ripledd
+from ripledd import Ripledd
 
 # Loading the Enviroment Variables
 load_dotenv()
 
-# Assigining them a constant
+# Assigining then a constant
 EMAIL = os.environ.get("RIPLEDD_EMAIL")
 PASSWORD = os.environ.get("RIPLEDD_PASSWORD")
+CHANNEL_ID = os.environ.get("RIPLEDD_CHANNEL_ID")
 
 # Creating a Ripledd Object
-ripledd = Ripledd(email=EMAIL, password=PASSWORD)
+ripledd = Ripledd(email=EMAIL, password=PASSWORD, channel_id=CHANNEL_ID)
 
 # Printing the success
-print(ripledd.create_post("The Post from the API").ok)
+print(ripledd.create_post("Django: The web framework for perfectionists with deadlines.").json())
+
 
 ```
 
