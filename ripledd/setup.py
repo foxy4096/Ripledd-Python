@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 DESCRIPTION = "A nice and sweet API wrapper made for Ripledd"
 
-with open("../README.md", "r") as fh:
-    LONG_DESCRIPTION = fh.read()
+
+
 
 setup(
     name="ripledd",
@@ -11,10 +11,9 @@ setup(
     author="Aditya Priyadarshi",
     author_email="adityapriyadarshi669@gmail.com",
     description=DESCRIPTION,
-    long_description=LONG_DESCRIPTION,
+    long_description=DESCRIPTION,
     packages=find_packages(),
-    install_requires=["setuptools_scm", "requests"],
-    keywords=["python", "API"],
+    install_requires=["setuptools_scm", "requests"],"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",
